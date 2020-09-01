@@ -1,0 +1,15 @@
+int
+x
+;
+proc
+foo
+(
+int
+b
+)
+b
+=
+d1
+;
+end
+foo

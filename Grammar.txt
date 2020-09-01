@@ -1,0 +1,39 @@
+P' -> P
+
+P -> K x ; P
+
+P -> proc foo ( K b ) S end foo
+
+K -> int
+
+S -> D I
+
+D -> b R d1 ;
+
+I -> I I'
+
+I -> ''
+
+I' -> B1 end if
+
+B1->if C then S1
+
+I' -> B1 C2
+
+I'-> B1 B C2 
+
+B -> else B1
+
+C2 -> else S1 end if 
+
+C -> E1 && E2
+
+E1 -> x R d1
+
+E2 -> b R d1
+
+R -> =
+
+S1 -> printf ( st ) ;
+
+P -> ''
